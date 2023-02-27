@@ -14,9 +14,9 @@
   --mainBgColor-dark: #131415;
 
   --mainTextColor: var(--mainTextColor-light);
-  --secondaryTextColor: var(--secondaryTextColor-light);
+  --secondaryTextColor: var(--secondaryTextColor-dark--mainTextColor-light);
   --mainLinkColor: var(--mainLinkColor-light);
-  --mainBorderColor: var(--mainBorderColor-light);
+  --mainBorderColor: var(--mainBorderColor-dark--mainLinkColor-light);
   --mainBgColor: var(--mainBgColor-light);
 }
 
